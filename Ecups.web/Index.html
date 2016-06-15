@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+
+<html ng-app="app">
+<head>
+    <title>Ecups</title>
+	<meta charset="utf-8" />
+</head>
+<body ng-controller="Main as vm">
+    Hello world!
+
+    <input type="text" ng-model="vm.food" placeholder="Enter food" />
+    <p>Sriracha sauce is great with {{vm.food}}!</p>
+
+    <script src="Scripts/angular-1.5.6/angular.min.js"></script>
+    <script src="App/app.module.js"></script>
+    <script src="App/main.js"></script>
+</body>
+</html>
